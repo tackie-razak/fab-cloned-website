@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document Object Model</title>
+        
+    </head>
+    <body>
+      <p id="demo"></p>
+        <script>
+            class car{
+              constructor(company, brand, year, price){
+                this.name = name;
+                this.brand = brand;
+                this.year = year;
+                this.price = price;
+              }
+              display(){
+                console.log(`your car is  ${this.name} ${this.brand} ${this.year} and it cost GHS${this.price}`)
+              }
+            }
+
+            // creating objects from the class
+            const firstCar = new car ("toyota", 'camry', 2014, 90000);
+            const secondCar = new car('honda', 'accord', 2019, 300000);
+
+            firstCar.display();
+            secondCar.display();
+
+    
+        </script>
+    </body>
+</html>

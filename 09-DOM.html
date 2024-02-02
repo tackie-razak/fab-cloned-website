@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document Object Model</title>
+        
+    </head>
+    <body>
+
+        <button>hello</button>
+        <button id="js-button">second button</button>
+        <p id="demo"></p>
+        <script>
+        /*    function disaplyDate (){
+               document.getElementById('demo').innerHTML = Date();
+            }
+            
+        function upperCase(){
+            let x= document.getElementById("case").innerHTML = x.value.toUpperCase();
+        } */
+        // the querry selector only access and change the first element that specifies th css selector
+        document.querySelector('#js-button').innerHTML = 'changed';
+        
+        </script>
+        <h3>JavaScript HTML Events</h3>
+        <h2>The Onclick Attribute</h2>
+        <p>Click on this button to display the date
+        </p>
+        <button onclick = "disaplyDate()">the Time is?</button>
+        <p id="demo"></p>
+
+        <form>
+            Name: <input type="text" id="case" oninput="upperCase">
+        </form>
+    </body>
+</html>
