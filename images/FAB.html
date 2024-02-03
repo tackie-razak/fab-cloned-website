@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <title>
+    FAB CLONE SITE
+  </title>
+  <head>
+    <style>
+
+      .button-icon{
+        width: 150px;
+        border: none;
+        font-size: 15px;
+        cursor: pointer;
+        background-color: white;
+        font-size: 18px;
+        font-style: normal;
+        opacity: 0.5;
+      }
+
+      .heading-profile{
+        vertical-align: top;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-style: normal;
+        cursor: pointer;
+        background-color: white;
+        width: 100%;
+        height: 35px;
+      }
+      .language{
+        cursor: pointer;
+        vertical-align: top;
+        width: 100px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-style: normal;
+        display: inline;
+        opacity: 0.5;
+
+      }
+      .search{
+        cursor: pointer;
+        font-size: 18px;
+        font-style: normal;
+        display: inline;
+        opacity: 0.5;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        padding-left: 20px;
+        margin-left: 30px;
+
+
+      }
+      .logo{
+        display: inline;
+        margin-top: 20px;
+        border-collapse: collapse;
+        border-spacing: 0px;
+
+      }
+
+      div.product-profile{
+        display: block;
+        background-color:aliceblue ;
+        width: 1350px;
+
+      }
+      .home-button{
+        width: 100px;
+        height: 100px;
+        vertical-align: top;
+        font-size: 18px;
+        margin-left:10px ;
+        margin-top:30px ;
+        background-color: aliceblue;
+        border: none;
+        cursor: pointer;
+
+      }
+      select.product{
+        width: 190px;
+        height: 100px;
+        vertical-align: top;
+        font-family: Arial;
+        font-size: 18px;
+        padding-right: 20px;
+        margin:30px ;
+        text-align: center;
+        display:inline;
+        background-color: aliceblue;
+        border: none;
+        cursor: pointer;
+      }
+      .group-image{
+        object-fit: contain;
+        width: 95%;
+        background: aliceblue;
+
+      }
+      .internet-banking{
+        width: 227px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        margin: 0px;
+        border: none;
+        vertical-align: top;
+        cursor: pointer;
+        transition-duration: 1s;
+        border-collapse: collapse;
+        border-spacing: 0px;
+      }
+      .internet-banking:hover{
+        background-color: white;
+        color: black;
+        transition-duration: 1s;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="heading-profile">
+      <select class="language">
+        <option>English</option>
+        <option>French</option>
+        <option> German</option>
+      </select>
+
+      <!-- buttons of all directories -->
+      <button class="button-icon">Find Branch </button>
+      <button class="button-icon">Bord Of Director</button>
+      <button class="button-icon">Corperate Profile</button>
+      <button class="button-icon">Investor Relation</button>
+      <button class="button-icon">Award & Recognition</button>
+      <button class="button-icon">Security Center</button>
+
+      <!-- Search engine on top right -->
+      <input type="text" placeholder="Search" class="search" >
+
+    </div>
+
+    <!-- this div contains all the products -->
+    <div class="product-profile">
+         <!-- logo -->
+    <img class="logo" src="images/logo.PNG">
+      <button class="home-button">Home</button>
+
+      <select title="Personal Banking" class="product">
+        <option>Personal Banking</option>
+        <option>Current Account</option>
+        <option>Savings Account</option>
+        <option>Loans</option>
+        <option>Remittances</option>
+        <option>Investment Calcutor</option>
+      </select>
+
+      <select title="Corperate Banking" class="product">
+        <option >Corperate Bank</option>
+        <option>Atlantic corperate Current Account</option>
+        <option>Atlantic Flex Account</option>
+        <option>Atlantic Business Savings</option>
+        <option>Trade Facility</option>
+      </select class="product">
+
+      <select title="Digital Banking" class="product">
+        <option>Digital Banking</option>
+        <option>Internet Bank</option>
+        <option>Corperate Pay</option>
+        <option>POS</option>
+        <option>Digital Platform</option>
+        <option>Cards</option>
+      </select>
+
+      <select title="Prestige Banking" class="product">
+        <option>Prestige Banking</option>
+        <option>Private Banking</option>
+        <option>Private Wealth Management</option>
+        <option>Credit Cards</option>
+      </select>
+      <button class="internet-banking">Internet Banking</button>
+
+      <img src="images/mt.jpeg" class="group-image">
+    </div>
+   
+
+    
+  </body>
+</html>
